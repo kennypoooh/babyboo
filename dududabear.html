@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anniversary Message</title>
+    <style>
+        body {
+            font-family: 'Cursive', sans-serif; /* Cursive font */
+            background-color: #CCCCFF; /* periwinkle purple */
+            color: gold;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: flex-start; /* Align to the top */
+            align-items: flex-start; /* Align to the top */
+            flex-direction: column;
+            text-align: center;
+        }
+        
+        h1, p {
+            font-size: 2.5em; /* Same size for all text */
+            margin: 10px;
+            line-height: 1.2;
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 10%; /* Push the title further down */
+        }
+
+        p {
+            margin-top: 5%; /* Make sure the text is below the title */
+        }
+
+        .image-container {
+            margin-top: 5%;
+            text-align: center;
+        }
+
+        .image-container img {
+            width: 400px; /* Bigger image size for Dudu */
+            height: auto;
+        }
+
+        /* Ensure the text fills the upper half of the screen */
+        @media screen and (max-width: 600px) {
+            h1, p {
+                font-size: 2em; /* Slightly smaller text for smaller screens */
+            }
+
+            .image-container img {
+                width: 300px; /* Adjust image size for mobile */
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Happy Anniversary, Baby!!!</h1>
+    <p>Thank you so much for one of the best years of my life, I can't wait to spend the rest of it with you in the future! muffin <3</p>
+    
+    <div class="image-container">
+        <!-- Dudu the bear GIF -->
+        <img src="https://media1.tenor.com/m/Bq89l_QP5HcAAAAC/dudu-flow-kiss-cute-dudu.gif" alt="Dudu the Bear blowing a kiss">
+    </div>
+</body>
+</html>
